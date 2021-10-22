@@ -196,7 +196,7 @@ public class Triangle {
     public double sinAngle(double a, double b, double A) {
         double B = 0;
         //A to radians
-        //B = sin(A)*b/a
+        //B = asin(sin(A)*b/a);
         //B to degrees
         return B;
     }
@@ -217,7 +217,7 @@ public class Triangle {
      */
     public double cosAngle(double a, double b, double c) {
         double A = 0;
-        //A = acos((a^2-b^2-c^2)/(-2bc))
+        //A = acos((a^2-b^2-c^2)/(-2*b*c))
         //A to degrees
         return A;
     }
@@ -235,9 +235,9 @@ public class Triangle {
     /**
      * Interior angles. 180 - a - b. Return c
      */
-    public double interiorAngle(double a, double b) {
-        double c = 0;
-        //c=180-a-b
-        return c;
+    public double interiorAngle(double A, double B) {
+        double C = 0;
+        //C=180-A-B
+        return C;
     }
 }
