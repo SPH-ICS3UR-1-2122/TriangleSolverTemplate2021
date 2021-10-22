@@ -13,7 +13,7 @@ public class Triangle {
     //attributes
 
     //Sides
-    public double sideA;
+    private double sideA;
     private double sideB;
     private double sideC;
 
